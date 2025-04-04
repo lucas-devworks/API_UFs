@@ -25,3 +25,4 @@ function buscaPorNome(nome) {
 exports.buscaUF = buscaUF;
 exports.buscaPorNome = buscaPorNome;
 exports.buscaUF = buscaUF;
+exports.buscarUfs = buscarUfs;

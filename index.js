@@ -6,7 +6,7 @@ const app = express();
 // retorna a coleção inteira ou com base no nome
 app.get('/ufs', (req, res) => {
     const nomeUF = req.query.busca;
-    const resultado = nomeUF ? servico.buscaPorNome(nomeUF) : servico.buscaPorNome();
+    const resultado = nomeUF ? servico.buscaPorNome(nomeUF) : servico.buscarUfs();
 
     if (resultado.length > 0) {
         res.json(resultado);
